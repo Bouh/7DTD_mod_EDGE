@@ -473,11 +473,14 @@
 		<style_entry name="anchor" value="CenterTop"/>
 	</style>
 	
+<!-- BEGIN_MOD: Red Eagle LXIX's Custom HUD : A16(b138) : v0.18 -->
+<!-- Only window size/position values were change in this file.  -->
+<!-- All such changes, defaults can be found tagged R.E. LXIX in comments. -->
 	<style name="compass.window.background.border" type="sprite">
 		<style_entry name="depth" value="0"/>
 		<style_entry name="sprite" value="ui_game_header_fill"/>
-		<style_entry name="size" value="305,43"/>
-		<style_entry name="pos" value="48,0"/>
+		<style_entry name="size" value="396,43"/> <!--"305,43" - R.E. LXIX - 01 of 08 -->
+		<style_entry name="pos" value="2,0"/> <!--"48,0" - R.E. LXIX - 02 of 08 -->
 		<style_entry name="type" value="sliced"/>
 		<style_entry name="color" value="0,0,0,100"/>
 	</style>
@@ -486,8 +489,8 @@
 		<style_entry name="depth" value="1"/>
 		<style_entry name="sprite" value="ui_game_header_fill"/>
 		<style_entry name="type" value="sliced"/>
-		<style_entry name="size" value="300,37"/>
-		<style_entry name="pos" value="50,-3"/>
+		<style_entry name="size" value="392,37"/> <!--"300,37" - R.E. LXIX - 03 of 08 -->
+		<style_entry name="pos" value="4,-3"/> <!--"50,-3" - R.E. LXIX - 04 of 08 -->
 		<style_entry name="color" value="128,128,128,100"/>
 	</style>
 	
@@ -504,20 +507,21 @@
 		<style_entry name="sprite" value="ui_game_header_fill"/>
 		<style_entry name="type" value="sliced"/>
 		<style_entry name="color" value="0,0,0,100"/>
-		<style_entry name="pos" value="50,-3"/>
-		<style_entry name="width" value="300" />
+		<style_entry name="pos" value="4,-3"/> <!--"50,-3" - R.E. LXIX - 05 of 08 -->
+		<style_entry name="width" value="392" /> <!--"300" - R.E. LXIX - 06 of 08 -->
 		<style_entry name="height" value="37" />
 	</style>
 	
 	<style name="compass.window.compass.texture" type="texture">
 		<style_entry name="depth" value="8"/>
 		<style_entry name="height" value="23" />
-		<style_entry name="width" value="300" />
-		<style_entry name="pos" value="50, -15" />
+		<style_entry name="width" value="392" /> <!--"300" - R.E. LXIX - 07 of 08 -->
+		<style_entry name="pos" value="4, -15" /> <!--"50, -15" - R.E. LXIX - 08 of 08 -->
 		<style_entry name="color" value="[iconColor]"/>
 		<style_entry name="tooltip" value="CHARACTER" />
 		<style_entry name="texture" value="Textures/UI/ui_game_compass" />
 	</style>
+<!-- END_MOD: Red Eagle LXIX's Custom HUD : A16(b138) : v0.18 -->
 	
 	<style name="crafting.info.window" type="window">
 		<style_entry name="valid_color" value="[green]"/>
